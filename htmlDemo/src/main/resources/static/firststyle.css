@@ -5,7 +5,10 @@ h1 {
     color: black;
     margin-left: 20px;
 }
-.ydre_div {
+#section_top10 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 
