@@ -13,8 +13,11 @@ public class MyController {
 
     @GetMapping("/demo")
     public String demo(){
-        return "demo";
+        return ("demo");
     }
 
-
+    @GetMapping("/top10")
+    public String top10(){
+        return ("top10");
+    }
 }
